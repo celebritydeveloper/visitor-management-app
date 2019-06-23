@@ -1,0 +1,38 @@
+{
+  "name": "personnel-management-app",
+  "version": "1.0.0",
+  "description": "This is platform that will help businesses keep track of resumption time, outing time and work hours of staffs. It will also help in managing visitors and keep track of their activities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all --parallel watch",
+    "watch": "node-sass sass/main.scss css/style.css -w",
+    "compile": "node-sass sass/main.scss css/style.css",
+    "prefix": "postcss css/style.css --use autoprefixer -o css/style.css",
+    "compress": "node-sass css/style.css css/style.css --output-style compressed",
+    "build": "npm-run-all compile prefix compress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theboringdude/personnel-management-app.git"
+  },
+  "keywords": [
+    "Visitor",
+    "Management",
+    "Staff",
+    "Management",
+    "Visitor"
+  ],
+  "author": "The Boring Creatives",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theboringdude/personnel-management-app/issues"
+  },
+  "homepage": "https://github.com/theboringdude/personnel-management-app#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.2"
+  }
+}
