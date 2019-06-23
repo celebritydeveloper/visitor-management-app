@@ -1,13 +1,11 @@
 @import './abstracts/variables';
 @import './abstracts/functions';
 
-@import './base/reset';
-@import 'base/typography';
-@import 'base/utilities';
+@import 'base/typo';
 
 @import 'components/button';
 @import 'components/form';
-@import 'components/user-navigation';
+@import 'components/navigation';
 
 @import 'layout/header';
 @import 'layout/footer';
