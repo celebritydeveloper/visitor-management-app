@@ -146,6 +146,26 @@ a {
 .staffin--form {
   margin-top: 4rem; }
 
+/* Visitor Styling Page */
+.visitor__message {
+  text-align: center; }
+  .visitor__message p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 0; }
+
+.visitor__button {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2;
+  margin-top: 2rem;
+  text-align: center; }
+  .visitor__button a {
+    display: inline-block;
+    margin-left: 1rem;
+    text-transform: uppercase; }
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -188,3 +208,7 @@ a {
     margin-top: 4rem;
     text-align: center;
     width: 300px; } }
+
+@media (min-width: 1281px) {
+  .visitor__message {
+    margin-top: 2rem; } }
