@@ -125,6 +125,27 @@ a {
 .staff--name {
   color: #0094C6; }
 
+/* Staff Signin Page Styling */
+.staff__signin {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2;
+  margin-top: 2rem;
+  text-align: center; }
+
+.staff-in__card {
+  background-color: #f1f0f0;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2;
+  justify-items: center;
+  padding: 1rem 0.5rem; }
+
+.staffin--form {
+  margin-top: 4rem; }
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -154,3 +175,16 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1; } }
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .staff__signin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    margin-top: 4rem;
+    text-align: center;
+    width: 300px; } }

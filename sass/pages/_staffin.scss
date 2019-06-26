@@ -1,0 +1,17 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+.staff__signin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    margin-top: 4rem;
+    text-align: center;
+    width: 300px;
+}
+
+}
