@@ -1,0 +1,30 @@
+.btn {
+    border: 1px transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0.8rem 2.5rem;
+    outline: 0;
+}
+
+.btn-staff {
+    background: $sapphire;
+    color: $white;
+}
+
+
+.btn-visitor:hover,
+.btn-staff:hover {
+    background: none;
+    border: 1px solid $white;
+    transition: .4s all ease-in-out;
+    padding: 0.8rem 3rem transparent;
+}
+
+
+
+.btn-visitor {
+    background: $light-blue;
+    color: $white;
+}

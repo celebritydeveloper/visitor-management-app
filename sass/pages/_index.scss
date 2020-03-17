@@ -1,0 +1,50 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    //CSS
+
+    
+    .welcome {
+        margin: 7rem auto 0 auto;
+        width: 70%;
+    
+        &__logo {
+            margin-bottom: 2rem;
+    
+            & img{
+                height: auto;
+                width: 180px;
+            }
+        }
+    
+    }
+    
+    
+    .welcome__message {
+        text-align: center;
+    
+        & h1 {
+            font-size: 5.5rem;
+        }
+    }
+    
+    .welcome__button {
+        grid-template-columns: repeat(2, 1fr);
+        
+        & button {
+            text-transform: uppercase;
+            margin-left: 1rem;
+        }
+    }
+    
+    
+  }
+
+
+
+
+

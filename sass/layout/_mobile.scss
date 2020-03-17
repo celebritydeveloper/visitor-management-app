@@ -1,0 +1,63 @@
+.welcome-page {
+    background: $blue-black;
+    color: $white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.welcome {
+    /* border: 1px solid $white; */
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3;
+    margin: 5rem auto 0 auto;
+    padding: 1rem;
+    width: 80%;
+
+    &__logo {
+        margin-bottom: 2.5rem;
+
+        & img{
+            height: auto;
+            width: 150px;
+        }
+    }
+
+}
+
+
+.welcome__message {
+    text-align: center;
+
+    & h1 {
+        color: $light-blue;
+        font-size: 3.5rem;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+        margin-top: 0;
+    }
+
+    & p {
+        font-size: 1rem;
+        font-weight: 300;
+        margin-top: 0;
+    }
+}
+
+.welcome__button {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    margin-top: 2rem;
+    
+    & button {
+        text-transform: uppercase;
+        margin-left: 1rem;
+    }
+}
+
+
+
+
