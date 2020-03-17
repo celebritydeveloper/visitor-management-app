@@ -1,11 +1,15 @@
-.welcome-page {
+/* Index page styling */
+
+.welcome-page,
+.staff-page {
     background: $blue-black;
     color: $white;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
 }
 
-.welcome {
+.welcome,
+.staff {
     /* border: 1px solid $white; */
     display: grid;
     justify-items: center;
@@ -56,8 +60,82 @@
         text-transform: uppercase;
         margin-left: 1rem;
     }
+
 }
 
 
+
+
+/* Staff page styling */
+
+.staff {
+    margin-top: 1rem;
+}
+
+.staff__container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    grid-template-rows: 1;
+}
+
+.staff__card {
+    background-color: #f1f0f0;
+    border: 1px solid $white;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    justify-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.staff__card:hover {
+    transform: scale(1.1);
+    transition: .3s all ease-in-out;
+}
+
+.staff__img {
+    border: 3px solid $light-blue;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+
+    & img {
+        
+        border-radius: 50%;
+    }
+}
+
+.staff--name {
+    color: $light-blue;
+}
+
+
+
+/* Staff Signin Page Styling */
+
+.staff__signin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.staff-in__card {
+    background-color: #f1f0f0;
+    border: 1px solid $white;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    justify-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.staffin--form {
+    margin-top: 4rem;
+}
 
 
